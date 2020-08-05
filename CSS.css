@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+}
+
+#myInput {
+/*    width: 15%;*/
+/*    padding: 12px 20px;*/
+/*    margin: 8px 0;*/
+/*    display: inline-block;*/
+/*    border: 1px solid #ccc;*/
+/*    border-radius: 4px;*/
+/*    box-sizing: border-box;*/
+/*}*/
+    max-width: 1140px;
+    width: 30%;
+    padding: 19px 20px;
+    margin: 15px auto;
+    display: inline-block;
+    border: 3px solid #080505ad;
+    border-radius: 15px;
+    box-sizing: border-box;
+    border-collapse: collapse;
+}
+    /**/
+    /*background-position: 10px 10px;*/
+    /*background-repeat: no-repeat;*/
+    /*width: 100%;*/
+    /*font-size: 16px;*/
+    /*padding: 12px 20px 12px 40px;*/
+    /*border: 1px solid #ddd;*/
+    /*margin-bottom: 12px;*/
+/*}*/
+
+#myTable {
+    max-width: 1140px;
+    width: 70%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+    font-size: 18px;
+}
+
+#myTable2 {
+    max-width: 1140px;
+    width: 30%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+    font-size: 18px;
+}
+
+#myTable th, #myTable td,
+#myTable2 th, #myTable2 td {
+    text-align: left;
+    padding: 12px;
+}
+
+#myTable tr,
+#myTable2 tr {
+    border-bottom: 1px solid #ddd;
+}
+
+
+#myTable tr.header, #myTable tr:hover,
+#myTable2 tr.header, #myTable2 tr:hover {
+    background-color: #f1f1f1;
+}
